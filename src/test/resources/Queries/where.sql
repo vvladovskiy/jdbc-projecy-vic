@@ -21,5 +21,7 @@ select * from EMPLOYEES where JOB_ID not IN('SA_REP', 'FI_MGR');
 
 select * from LOCATIONS where CITY in('Roma', 'Tokyo');
 
+select * from EMPLOYEES where DEPARTMENT_ID is null;
+select * from EMPLOYEES where DEPARTMENT_ID is not null;
 
 
