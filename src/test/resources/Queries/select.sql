@@ -23,3 +23,8 @@ select * from EMPLOYEES order by 8 ; -- column #
 
 select * from EMPLOYEES where EMPLOYEE_ID<120 order by FIRST_NAME desc ;
 
+select FIRST_NAME from EMPLOYEES, DEPARTMENTS;
+
+select * from DEPARTMENTS, EMPLOYEES;
+
+
